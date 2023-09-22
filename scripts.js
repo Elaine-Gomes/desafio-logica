@@ -5,11 +5,11 @@ const xp = document.querySelector('#xp');
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    mostraNivel();
-    limpaCampos();
+    mostrarNivel();
+    limparCampos();
 });
 
-function mostraNivel() {
+function mostrarNivel() {
     const nomeHeroi = nome.value;
     let xpValue = parseInt(xp.value);
     let nivel = '';
@@ -37,7 +37,7 @@ function mostraNivel() {
     alert(mensagem);
 }
 
-function limpaCampos() {
+function limparCampos() {
     nome.value = '';
     xp.value = '';
 }
