@@ -1,0 +1,88 @@
+/* Reset de estilos e configurações globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilos para o corpo da página */
+body {
+    width: 100vw;
+    height: 100vh;
+    background: no-repeat fixed center/cover url('./images/fundo-heroi.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    width: 40%;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(77, 77, 77, 0.116);
+    flex-direction: column;
+}
+
+/* Estilos para rótulos */
+.container label {
+    font-size: 1.1em;
+    color: rgb(176, 60, 60);
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+/* Estilos para campos de entrada */
+.container input {
+    padding: 12px;
+    margin-bottom: 4px;
+    background-color: rgba(245, 245, 220, 0.389);
+    border: none;
+    outline-color: blue;
+    color: rgb(46, 46, 203);
+}
+
+/* Estilos para contêineres aninhados */
+.container div {
+    padding: 4px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para o formulário */
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para o título */
+#titulo {
+    color: antiquewhite;
+    font-size: 2.6em;
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+}
+
+/* Estilos para o botão */
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+    color: rgb(99, 122, 213);
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: rgb(221, 221, 237);
+    border: none;
+    transition: 0.9s linear;
+}
+
+/* Estilos para o botão ao passar o mouse */
+.btn:hover {
+    background-color: rgb(106, 136, 218);
+    color: #fff;
+}
